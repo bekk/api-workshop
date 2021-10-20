@@ -224,7 +224,7 @@ Vi skal bruke nøyaktig samme url som i oppgave 2, men også legge til det nye p
 Om du står fast kan du sjekke "💡Tips"
 
 <details><summary>💡 Tips</summary>
-For å løse oppgaven må du ta i bruke et header-paramtre og sende inn det superduperhemmeligepassordet der. MDN har en fin beskrivelse av hva HTTP-headeren er for noe her: https://developer.mozilla.org/en-US/docs/Glossary/Request_header.
+For å løse oppgaven må du ta i bruke et header-paramtre og sende inn `superduperhemmeligpassord` der. MDN har en fin beskrivelse av hva HTTP-headeren er for noe her: https://developer.mozilla.org/en-US/docs/Glossary/Request_header.
 
 I frontendapplikasjonen vår bruker vi [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) til å hente data fra backenden. I tillegg til selve URL'en kan vi også sende inn et javascript-objekt inn som parameter til fetch. Du kan se dokumentasjon og eksempeler på det på https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#supplying_request_options.
 
@@ -393,7 +393,7 @@ Dette endepunktet kan for eksempel ta inn navnet på restaurant. For å teste om
 <details><summary>💡 Tips</summary>
   
   
-Her kan det også være greit å ta utagangspunktet i endepunktet til `tilsynsId`. 
+Her kan det også være greit å ta utagangspunktet i endepunktet til `tilsynsId`.
 
 I endepunktet til tilsyn er vi kun interessert i å finne ett resultat, og vi bruker derfor `find`, en annen funksjon som kan brukes til å finne alle resultatene fra en liste er `filter`. Sjekk [filter dokumentasjonen](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) for eksempler på bruk.
 
