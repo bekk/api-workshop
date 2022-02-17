@@ -393,7 +393,7 @@ Dette endepunktet kan for eksempel ta inn navnet på restaurant. For å teste om
 <details><summary>💡 Tips</summary>
   
   
-Her kan det også være greit å ta utagangspunktet i endepunktet til `tilsynsId`.
+Her kan det også være greit å ta utgangspunktet i endepunktet til `tilsynsId`.
 
 I endepunktet til tilsyn er vi kun interessert i å finne ett resultat, og vi bruker derfor `find`, en annen funksjon som kan brukes til å finne alle resultatene fra en liste er `filter`. Sjekk [filter dokumentasjonen](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) for eksempler på bruk.
 
