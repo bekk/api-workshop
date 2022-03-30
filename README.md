@@ -219,7 +219,7 @@ Nå har vi gjort applikasjonen i stand til å hente en liste med tilsyn, samt vi
 
 Start med å endre verdien av variablen `shouldUseAccessToken` fra false til true
 
-Vi skal bruke nøyaktig samme url som i oppgave 2, men også legge til det nye parameteret i headeren.
+Vi skal bruke nøyaktig samme url som i oppgave 2, men også legge til det nye parameteret i headeren. I denne oppgaven skal vi sende med den superhemmelige `accessToken`, med passord `superduperhemmeligpassord`. 
 
 Om du står fast kan du sjekke "💡Tips"
 
